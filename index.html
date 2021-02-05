@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h3 class="heading"> Stuff I need to do</h3>
+    <div class="todo-wrapper">
+        <div class="todo">
+            <div class="todo__header">
+                <ion-icon name="list-outline" class="todo__icon"></ion-icon>
+                <h3 class="todo__title">Youtube</h3>
+            </div>
+            <div class="todo__body">
+                <ul class="todo__list">
+                    <!-- <li class="todo__item">
+                        <input type="checkbox" id="item1" class="todo__input">
+                        <label for="item1">Make video youtube</label>
+                        <ion-icon name="trash-outline" class="icon-delete"></ion-icon>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" id="item2" class="todo__input">
+                        <label for="item2">Writing script</label>
+                        <ion-icon name="trash-outline" class="icon-delete"></ion-icon>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" id="item3" class="todo__input">
+                        <label for="item3">Make your dinner</label>
+                        <ion-icon name="trash-outline" class="icon-delete"></ion-icon>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" id="item4" class="todo__input">
+                        <label for="item4">Reading book youtube</label>
+                        <ion-icon name="trash-outline" class="icon-delete"></ion-icon>
+                    </li> -->
+                </ul>
+    
+                <form action="" class="form">
+                    <input type="text" id="input-item" class="form__input" placeholder="Your task...">
+                    <input type="submit" value="+ New Task" class="form__button">
+                </form>
+               
+            </div>
+            <button class="btn check-all">Check all</button>
+            <button class="btn delete-all">Delete all</button>
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+</html>
