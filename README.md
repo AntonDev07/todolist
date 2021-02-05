@@ -1,2 +1,2 @@
-# todolist
+# Todolist
 Basic todolist with Javascript 
