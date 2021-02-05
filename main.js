@@ -72,7 +72,6 @@ function checkAll() {
     });
     isAllCheck = !isAllCheck;
     
-
 }
 
 function deleteAll() {
